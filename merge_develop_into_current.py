@@ -2,6 +2,7 @@
 import os
 
 
+# Merges develop into the currently checked out branch
 def merge_develop_into_current():
     current_branch = find_current_branch()
 
